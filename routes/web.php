@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.baseLayout');
 });
+Route::get('/layout2', function () {
+    return view('frontend.index');
+});

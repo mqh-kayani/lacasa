@@ -83,15 +83,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header-logo">
-                        <a href="#" class="logo logo-static">
-{{--                            <img src="assets/images/mainLogo_t.png" alt="img" class="logo-img">--}}
-                            <img src="assets/images/logo1.png" alt="img" class="logo-img">
-                        </a>
-                        <a href="#" class="logo logo-fixed">
-                            <img src="assets/images/logo1.png" alt="img" class="logo-img">
-                        </a>
-                    </div>
+
                     <nav id="main-nav-offcanvas" class="main-nav-wrapper">
                         <div class="close-offcanvas-wrapper"><span class="close-offcanvas">x</span></div>
                         <div class="main-nav">
@@ -123,103 +115,205 @@
             </div>
         </header>
         <div class="page-container">
-            <div class="top-header top-bg-video" style="background-image: url('{{asset('assets/images/fullpage-bg.jpg')}}') ; object-fit: contain">
+            <div class="top-header top-bg-video" style="background-image: url('{{asset('assets/images/lacasabg2.jpg')}}') ; object-fit: contain">
                 <div class="slides">
-                    <div class="slide-content slide-layout-02 slide-style-02">
-                        <div class="container">
-                            <div class="slide-content-inner text-center"><img src="assets/images/logo_main.png" data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="500" alt="img" class="img img-responsive slide-icon animated">
-                                <h3 data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="800" class="slide-title animated">La Casa des Papilles</h3>
-                                <p data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1200" class="slide-sub-title animated"><span class="line-before"></span><span class="line-after"></span><span class="text">Restaurant pour l'élite</span></p><img src="assets/images/slider/slider3-icon2.png" data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1500" alt="img" class="img img-responsive slide-icon animated">
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="page-content-wrapper">
                 <section class="about-us-session padding-top-100 padding-bottom-100">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 colsm-12"><img src="{{asset('assets/images/pages/home1-about.jpg')}}" alt="" class="img img-responsive wow zoomIn" style="visibility: visible; animation-name: zoomIn;"></div>
-                            <div class="col-md-6 col-sm-12">
+                            <div class="col-md-4 colsm-12"><img src="{{asset('assets/images/about2.jpg')}}" alt="" class="img img-responsive wow zoomIn" style="visibility: visible; animation-name: zoomIn;"></div>
+                            <div class="col-md-4 col-sm-12">
                                 <div class="swin-sc swin-sc-title style-4 margin-bottom-20 margin-top-50">
-                                    <p class="top-title"><span>Découvrir</span></p>
-                                    <h3 class="title">Notre histoire</h3>
+                                    <h3 class="title">À propos de nous</h3>
                                 </div>
                                 <p class="des font-bold text-center">NOUS AVONS LA GLOIRE COMMENÇANT DANS LES AFFAIRES DE RESTAURANT</p>
                                 <p class="des margin-bottom-20 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullam laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit btn-transparent"> <span>À propos de nous</span></a></div>
+                                <div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit btn-transparent"> <span>Suite</span></a></div>
                             </div>
+                            <div class="col-md-4 colsm-12"><img src="{{asset('assets/images/lacasa_about.jpg')}}" alt="" class="img img-responsive wow zoomIn" style="visibility: visible; animation-name: zoomIn;"></div>
                         </div>
                     </div>
                 </section>
-                <section class="product-sesction-03-1 padding-top-100 padding-bottom-100"><img src="{{asset('assets/images/product/product-decorate.jpg')}}" alt="" class="img-responsive img-decorate">
-                    <div class="container">
+                <section class="product-sesction-03-1 padding-bottom-100">
+                    <div class="container-fluid">
+                        <h3 class="title text-center mt-2" style="color: #ffffff !important;">La casa des papilles <br>Des produits</h3>
+                        <hr>
                         <div class="row">
-                            <div class="col-lg-6 col-md-4"></div>
-                            <div class="col-lg-6 col-md-8">
+                            <div class="col-lg-3 col-md-8">
                                 <div class="swin-sc swin-sc-title text-left light">
-                                    <p class="top-title"><span>Notre Spécial</span></p>
-                                    <h3 class="title">L'offre du jour</h3>
+                                    <h3 class="title"><span style="border-bottom: 1px solid #ffffff">Pizza</span></h3>
                                 </div>
                                 <div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
-                                    <div class="row">
+                                    <div class="row" style="padding-bottom: 12px !important;">
                                         <div class="col-md-12">
                                             <div data-height="200" class="products nav-slider">
                                                 <div class="item product-01">
                                                     <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">The Cracker Barrel's Country Boy Breakfast</a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
                                                         </div>
                                                     </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span></div>
-                                                </div>
-                                                <div class="item product-01">
-                                                    <div class="item-left"><img src="assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">Uncle Herschel's Favorite </a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>45.0</span></div>
-                                                </div>
-                                                <div class="item product-01">
-                                                    <div class="item-left"><img src="assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">Grandpa's Country Fried Breakfast </a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>30.0</span></div>
-                                                </div>
-                                                <div class="item product-01">
-                                                    <div class="item-left"><img src="assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">Chinese Chicken Bread Spicy Soup</a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>12.0</span></div>
-                                                </div>
-                                                <div class="item product-01">
-                                                    <div class="item-left"><img src="assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">Uncle Herschel's Favorite </a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>45.0</span></div>
                                                 </div>
                                                 <div class="item product-01">
                                                     <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
-                                                        <div class="content-wrapper"><a class="title">The Cracker Barrel's Country Boy Breakfast</a>
-                                                            <div class="dot">.....................................................................</div>
-                                                            <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
                                                         </div>
                                                     </div>
-                                                    <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span></div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="swin-btn center form-submit btn-transparent" style="border: 1px solid #ffffff !important;"> <span style="color: #ffffff">Voir tout</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-8">
+                                <div class="swin-sc swin-sc-title text-left light">
+                                    <h3 class="title"><span style="border-bottom: 1px solid #ffffff">Burgur</span></h3>
+                                </div>
+                                <div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
+                                    <div class="row" style="padding-bottom: 12px !important;">
+                                        <div class="col-md-12">
+                                            <div data-height="200" class="products nav-slider">
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="swin-btn center form-submit btn-transparent" style="border: 1px solid #ffffff !important;"> <span style="color: #ffffff">Voir tout</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-8">
+                                <div class="swin-sc swin-sc-title text-left light">
+                                    <h3 class="title"><span style="border-bottom: 1px solid #ffffff">Poulette</span></h3>
+                                </div>
+                                <div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
+                                    <div class="row" style="padding-bottom: 12px !important;">
+                                        <div class="col-md-12">
+                                            <div data-height="200" class="products nav-slider">
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="swin-btn center form-submit btn-transparent" style="border: 1px solid #ffffff !important;"> <span style="color: #ffffff">Voir tout</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-8">
+                                <div class="swin-sc swin-sc-title text-left light">
+                                    <h3 class="title"><span style="border-bottom: 1px solid #ffffff">Boissons</span></h3>
+                                </div>
+                                <div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
+                                    <div class="row" style="padding-bottom: 12px !important;">
+                                        <div class="col-md-12">
+                                            <div data-height="200" class="products nav-slider">
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item product-01">
+                                                    <div class="item-left"><img src="assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                                                        <div class="content-wrapper">
+                                                            <a class="title" href="#">The Cracker Barrel's Country Boy Breakfast &nbsp; <b>€ 25.0</b></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="swin-btn center form-submit btn-transparent" style="border: 1px solid #ffffff !important;"> <span style="color: #ffffff">Voir tout</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -227,203 +321,10 @@
                         </div>
                     </div>
                 </section>
-                <section class="product-sesction-03 padding-top-100 padding-bottom-100">
+                <section class="video-section-03 banner-section padding-top-100 ">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="swin-sc swin-sc-title">
-                                    <p class="top-title"><span>Nos produits</span></p>
-                                    <h3 class="title">Votre Goût Désiré</h3>
-                                </div>
-                                <div class="swin-sc swin-sc-product products-01 style-01 woocommerce">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="cat-wrapper main-slider">
-                                                <div class="item"><img src="{{asset('assets/images/product/pd-cat-dessert.png')}}" alt="" class="img img-responsive"></div>
-                                                <div class="item"><img src="{{asset('assets/images/product/pd-cat-lunch.png')}}" alt="" class="img img-responsive"></div>
-                                                <div class="item"><img src="{{asset('assets/images/product/pd-cat-dinner.png')}}" alt="" class="img img-responsive"></div>
-                                                <div class="item"><img src="{{asset('assets/images/product/pd-cat-dessert.png')}}" alt="" class="img img-responsive"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="products nav-slider">
-                                                <div class="item-slick">
-                                                    <div class="row">
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>30.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>27.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>17.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>22.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>23.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>21.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item-slick">
-                                                    <div class="row">
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>22.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>23.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>21.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>25.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>30.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>27.0</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                                            <div class="item product-01">
-                                                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                                                    <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                                                </div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">€</span>17.0</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swin-btn-wrap center mtxxl"><a href="#" class="swin-btn center btn-transparent"> <span>All Dishes</span></a></div>
-                            </div>
-                        </div>
-                        <div class="row margin-top-100">
-                            <div class="col-md-6 col-xs-12">
-                                <div class="swin-sc swin-sc-banner item wow fadeInLeft">
-                                    <div class="banner-featured-img"><img src="{{asset('assets/images/banner-img-1.jpg')}}" alt="img" class="img img-responsive">
-                                        <div class="banner-content">
-                                            <div class="banner-title">Pizza végétarienne</div>
-                                            <div class="banner-subtitle">NOUVEAUX PLATS CETTE SEMAINE</div><a href="#" class="swin-btn"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12">
-                                <div class="swin-sc swin-sc-banner right item wow fadeInRight">
-                                    <div class="banner-featured-img"><img src="assets/images/banner-img-2.jpg" alt="img" class="img img-responsive">
-                                        <div class="banner-content">
-                                            <div class="banner-title">Fettuccine Alfredo</div>
-                                            <div class="banner-subtitle">NOS PRODUITS FAIT MAIN</div><a href="#" class="swin-btn"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="counter-section-03 padding-top-100 padding-bottom-100">
-                    <div class="container">
-                        <img src="assets/images/background/vegetable_01.png" alt="" class="img-left img-bg img-responsive">
-                        <img src="assets/images/background/vegetable_02.png" alt="" class="img-right img-bg img-responsive">
-                        <div class="swin-sc swin-sc-counter">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="counter-info item"><span data-from="50" data-to="103" data-speed="3000" data-refresh-interval="5" class="number timer">0</span><span class="caption">/vaisselle</span></div>
-                                    <div class="counter-avatar"><img src="assets/images/counter-1.png" alt="img" class="img img-responsive"></div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="counter-info item"><span data-from="2300" data-to="2389" data-speed="3000" data-refresh-interval="5" class="number timer">0</span><span class="caption">/les clients</span></div>
-                                    <div class="counter-avatar"><img src="assets/images/counter-2.png" alt="img" class="img img-responsive"></div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="counter-info item"><span data-from="2500" data-to="2589" data-speed="3000" data-refresh-interval="5" class="number timer">0</span><span class="caption">/working hours</span></div>
-                                    <div class="counter-avatar"><img src="assets/images/counter-4.png" alt="img" class="img img-responsive"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="video-section-03 banner-section padding-top-100 padding-bottom-100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
+                            <div class="col-md-8">
                                 <div class="content-wrapper">
                                     <h2 class="heading-title">OUR<span class="text-large"> Bœuf BBQ</span> ET BROCHETTES DE POULET</h2>
                                     <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -437,16 +338,16 @@
                         </div>
                     </div>
                 </section>
-                <section class="blog-section-03 padding-top-100 padding-bottom-100">
+                <section class="blog-section-03 padding-top-100">
                     <div class="container">
                         <div class="swin-sc swin-sc-title">
-                            <p class="top-title"><span>MISE À JOUR À PARTIR DE</span></p>
+                            <p class="top-title"><span>La casa des papilles</span></p>
                             <h3 class="title">Notre blog en vedette</h3>
                         </div>
                         <div class="swin-sc swin-sc-blog-masonry">
                             <div class="grid">
                                 <div class="grid-sizer col-md-1 col-sm-1 col-xs-1"></div>
-                                <div class="grid-item col-md-8 col-sm-12 grid-item-h1">
+                                <div class="grid-item col-md-4 col-sm-12 grid-item-h1">
                                     <div class="blog-item swin-transition wow fadeInUpShort">
                                         <div class="blog-info clearfix">
                                             <div class="blog-info-item blog-view">
@@ -462,11 +363,11 @@
                                                 <p></p>
                                             </div>
                                         </div>
-                                        <div class="blog-featured-img"><img src="assets/images/blog/blog-slider-1.jpg" alt="img" class="img img-responsive"></div>
-                                        <div class="blog-content">
+                                        <div class="blog-featured-img"><img src="assets/images/blog/blog-05.jpg" alt="img" class="img img-responsive"></div>
+                                        <div class="blog-content" style="background-color: #521117 !important;">
                                             <div class="blog-date"><span class="day">12</span><span class="month">Jun</span></div>
-                                            <h3 class="blog-title"><a href="#" class="swin-transition">Comment faire cuire les nouilles chinoises épicées par temps froid</a></h3>
-                                            <p class="blog-description">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                            <h3 class="blog-title" style="font-size: 25px !important; color: #ffffff !important;"><a href="#" class="swin-transition">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h3>
+                                            <p class="blog-description" style="color: #ffffff !important;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                                             <div class="blog-readmore"><a href="#" class="swin-transition">Read More <i class="fa fa-angle-double-right"></i></a></div>
                                         </div>
                                     </div>
@@ -487,16 +388,16 @@
                                                 <p></p>
                                             </div>
                                         </div>
-                                        <div class="blog-featured-img"><img src="{{asset('assets/images/blog/blog-grid-1.jpg')}}" alt="img" class="img img-responsive"></div>
-                                        <div class="blog-content">
+                                        <div class="blog-featured-img"><img src="assets/images/blog/blog-05.jpg" alt="img" class="img img-responsive"></div>
+                                        <div class="blog-content" style="background-color: #521117 !important;">
                                             <div class="blog-date"><span class="day">12</span><span class="month">Jun</span></div>
-                                            <h3 class="blog-title"><a href="#" class="swin-transition">Comment faire cuire les nouilles chinoises épicées par temps froid</a></h3>
-                                            <p class="blog-description">Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3 class="blog-title" style="font-size: 25px !important; color: #ffffff !important;"><a href="#" class="swin-transition">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h3>
+                                            <p class="blog-description" style="color: #ffffff !important;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                                             <div class="blog-readmore"><a href="#" class="swin-transition">Read More <i class="fa fa-angle-double-right"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-item col-md-6 col-sm-6 grid-item-ha">
+                                <div class="grid-item col-md-4 col-sm-12 grid-item-h1">
                                     <div class="blog-item swin-transition wow fadeInUpShort">
                                         <div class="blog-info clearfix">
                                             <div class="blog-info-item blog-view">
@@ -512,72 +413,47 @@
                                                 <p></p>
                                             </div>
                                         </div>
-                                        <div class="blog-featured-img"><img src="{{asset('assets/images/blog/blog-grid-3.jpg')}}" alt="img" class="img img-responsive"></div>
-                                        <div class="blog-content">
+                                        <div class="blog-featured-img"><img src="assets/images/blog/blog-05.jpg" alt="img" class="img img-responsive"></div>
+                                        <div class="blog-content" style="background-color: #521117 !important;">
                                             <div class="blog-date"><span class="day">12</span><span class="month">Jun</span></div>
-                                            <h3 class="blog-title"><a href="#" class="swin-transition">Comment faire cuire les nouilles chinoises épicées par temps froid</a></h3>
-                                            <p class="blog-description">Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                            <div class="blog-readmore"><a href="#" class="swin-transition">Read More <i class="fa fa-angle-double-right"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid-item col-md-6 col-sm-6 grid-item-ha">
-                                    <div class="blog-item swin-transition wow fadeInUpShort">
-                                        <div class="blog-info clearfix">
-                                            <div class="blog-info-item blog-view">
-                                                <p><i class="fa fa-eye"></i><span>18</span></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="blog-info-item blog-comment">
-                                                <p><i class="fa fa-comment"></i><span>18</span></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="blog-info-item blog-author">
-                                                <p><span>Post By </span><a href="#">Admin</a></p>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                        <div class="blog-featured-img"><img src="assets/images/blog/blog-grid-4.jpg" alt="img" class="img img-responsive"></div>
-                                        <div class="blog-content">
-                                            <div class="blog-date"><span class="day">12</span><span class="month">Jun</span></div>
-                                            <h3 class="blog-title"><a href="#" class="swin-transition">Comment faire cuire les nouilles chinoises épicées par temps froid</a></h3>
-                                            <p class="blog-description">Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3 class="blog-title" style="font-size: 25px !important; color: #ffffff !important;"><a href="#" class="swin-transition">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h3>
+                                            <p class="blog-description" style="color: #ffffff !important;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                                             <div class="blog-readmore"><a href="#" class="swin-transition">Read More <i class="fa fa-angle-double-right"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swin-btn-wrap center mtxxl"><a href="#" class="swin-btn center btn-transparent"> <span>Tous les blogs</span></a></div>
+                        <div class="swin-btn-wrap center mtxxl" style="margin-top: 47px !important;"><a href="#" class="swin-btn center btn-transparent"> <span>Tous les blogs</span></a></div>
                     </div>
                 </section>
                 <section class="service-section-02 padding-top-100 padding-bottom-100">
-                    <div class="container">
+                    <div class="container" style="background-color: #521117; border-radius: 25px !important;">
                         <div class="swin-sc swin-sc-title">
-                            <p class="top-title"><span>NOTRE SERVICE</span></p>
-                            <h3 class="title">Ce sur quoi nous nous concentrons</h3>
+                            <p class="top-title" style="color: #ffffff !important;"><span>NOTRE SERVICE</span></p>
+                            <h3 class="title" style="color: #ffffff !important;">Ce sur quoi nous nous concentrons</h3>
                         </div>
                         <div class="swin-sc swin-sc-iconbox">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div class="item icon-box-02 wow fadeInUpShort" style="visibility: visible; animation-name: fadeInUpShort;">
                                         <div class="wrapper-icon"><i class="icons swin-icon-dish"></i><span class="number">1</span></div>
-                                        <h4 class="title">Réservation</h4>
-                                        <div class="description">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
+                                        <h4 class="title" style="color: #ffffff !important;">Réservation</h4>
+                                        <div class="description" style="color: #ffffff !important;">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div data-wow-delay="1s" class="item icon-box-02 wow fadeInUpShort" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUpShort;">
                                         <div class="wrapper-icon"><i class="icons swin-icon-browser"></i><span class="number">3</span></div>
-                                        <h4 class="title">Commande en ligne</h4>
-                                        <div class="description">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
+                                        <h4 class="title" style="color: #ffffff !important;">Commande en ligne</h4>
+                                        <div class="description" style="color: #ffffff !important;">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div data-wow-delay="1.5s" class="item icon-box-02 wow fadeInUpShort" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUpShort;">
                                         <div class="wrapper-icon"><i class="icons swin-icon-delivery"></i><span class="number">4</span></div>
-                                        <h4 class="title">Livraison rapide</h4>
-                                        <div class="description">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
+                                        <h4 class="title" style="color: #ffffff !important;">Livraison rapide</h4>
+                                        <div class="description" style="color: #ffffff !important;">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et</div>
                                     </div>
                                 </div>
                             </div>
@@ -588,23 +464,6 @@
             </div>
         </div>
         <footer>
-            <div class="subscribe-section"><img src="{{asset('assets/images/background/bg5.png')}}" alt="" class="img-subscribe">
-                <div class="container">
-                    <div class="subscribe-wrapper">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="subscribe-heading">
-                                    <h3 class="title">Abonnez-vous maintenant</h3>
-                                    <div class="des">Recevez chaque jour plus de nouvelles et de délicieux plats de notre part</div>
-                                </div>
-                                <form class="widget-newsletter">
-                                    <input placeholder="Email" class="form-control"><span class="submit"><i class="fa fa-paper-plane"></i></span>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="footer-top"></div>
             <div class="footer-main">
                 <div class="container">
@@ -780,41 +639,6 @@
                 </div>
             </div>
         </footer><a id="totop" href="#" class="animated"><i class="fa fa-angle-double-up"></i></a>
-    </div>
-    <div id="loader" data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z" class="pageload-overlay">
-        <div class="loader-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60" preserveaspectratio="none">
-                <path d="m -5,-5 0,70 90,0 0,-70 z m 5,5 c 0,0 7.9843788,0 40,0 35,0 40,0 40,0 l 0,60 c 0,0 -3.944487,0 -40,0 -30,0 -40,0 -40,0 z"></path>
-            </svg>
-            <div class="sk-circle">
-                <div class="sk-circle1 sk-child"></div>
-                <div class="sk-circle2 sk-child"></div>
-                <div class="sk-circle3 sk-child"></div>
-                <div class="sk-circle4 sk-child"></div>
-                <div class="sk-circle5 sk-child"></div>
-                <div class="sk-circle6 sk-child"></div>
-                <div class="sk-circle7 sk-child"></div>
-                <div class="sk-circle8 sk-child"></div>
-                <div class="sk-circle9 sk-child"></div>
-                <div class="sk-circle10 sk-child"></div>
-                <div class="sk-circle11 sk-child"></div>
-                <div class="sk-circle12 sk-child"></div>
-            </div>
-            <div class="sk-circle sk-circle-out">
-                <div class="sk-circle1 sk-child"></div>
-                <div class="sk-circle2 sk-child"></div>
-                <div class="sk-circle3 sk-child"></div>
-                <div class="sk-circle4 sk-child"></div>
-                <div class="sk-circle5 sk-child"></div>
-                <div class="sk-circle6 sk-child"></div>
-                <div class="sk-circle7 sk-child"></div>
-                <div class="sk-circle8 sk-child"></div>
-                <div class="sk-circle9 sk-child"></div>
-                <div class="sk-circle10 sk-child"></div>
-                <div class="sk-circle11 sk-child"></div>
-                <div class="sk-circle12 sk-child"></div>
-            </div>
-        </div>
     </div>
 </div>
 <div id="add-to-cart-dialog" class="add-to-card-dialog dialog">
